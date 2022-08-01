@@ -1,4 +1,4 @@
-#Daimler Technical code 
+#Technical code 
 #Author: Miguel Moreno Mardones
 #Date: 28/05/2022
 
