@@ -1,8 +1,8 @@
 # Technical Solution Python
-Python solution using exceptions and lambda functions to sort sku codes.
+Python solution using exceptions and lambda functions to extract 10 most similar sku codes given an input sku code.
 
-Entire file created on my own, only for technical interview purposes.
+Similarity created by alphabetical and numerical form.
 
-Data given by company.
+Entire solution file created on my own, only for technical interview purposes.
 
 Feel free to check it and use it, enjoy :)
