@@ -105,23 +105,3 @@ for i in Output:
     if (i != str(list(Output.keys())[0]) and i != str(list(Output.keys())[-1])):
         print(str(i) + ' ' + str(Output[i]) + ' than to\n')
 
-
-#Aditional ways to implement this algorithm 
-
-#Definitely the realization of this solution has not been an easy task, I modified on Saturday 28th the whole way of interpreting the algorithm, 
-#because instead of sorting by number of matches and then by alphabetical order, 
-#I had established a weighting system based on the non-zero position of each row, giving higher values for the leftmost positions.
-
-#That is why a priori the statement seemed to me a bit ambiguous, and although it is true that applying my method the output obtained was 
-#90% similar to the original one, it did not work correctly.
-
-#I still think that the scoring system or weights for recommendations can be a great algorithm when it comes to establishing recommendation criteria. 
-#It can be used both in a sentiment analysis of a product, giving high weights to positive ratings and words and negative ones to the opposite. 
-#The improvement I would implement involves not only the referrer letter of each row, but also its value following the '-'. 
-#Thus, a cell with value 'att-a1' would have a higher weight than one that was 'att-a123'. 
-
-#The recommendation for both cases would be correct, since the column 'att-a' is similar to this value, 
-#but the cell 'att-a1' would have more weight because it has a shorter string value or a string value closer to the original one. 
-
-#Thank you so much for your time!
-#¡Gracias por su tiempo!
