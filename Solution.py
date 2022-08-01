@@ -8,7 +8,7 @@ import pandas as pd
 #Input JSON file to read in this script
 #We use pandas library so we can read it
 #CAUTION = JSON file must be in the same directory as this file
-file = pd.read_json('Daimler-test-data.json')
+file = pd.read_json('test-data.json')
 
 #Input keyboard sku code
 
